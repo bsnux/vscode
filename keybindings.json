@@ -1,0 +1,6 @@
+[
+    { "key": "ctrl+c",                 "command": "editor.action.clipboardCopyAction" },
+    { "key": "ctrl+x",                 "command": "editor.action.clipboardCutAction" },
+    { "key": "ctrl+v",                 "command": "editor.action.clipboardPasteAction" },
+    { "key": "ctrl+s",                 "command": "workbench.action.files.save" },
+]
