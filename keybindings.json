@@ -1,6 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
 [
     { "key": "ctrl+c",                 "command": "editor.action.clipboardCopyAction" },
     { "key": "ctrl+x",                 "command": "editor.action.clipboardCutAction" },
     { "key": "ctrl+v",                 "command": "editor.action.clipboardPasteAction" },
     { "key": "ctrl+s",                 "command": "workbench.action.files.save" },
+    { "key": "cmd+k+right",            "command": "workbench.action.splitEditor"},
+    { "key": "alt+b",                  "command": "cursorWordLeft"},
+    { "key": "alt+f",                  "command": "cursorWordRight"},
+    { "key": "cmd+j",                  "command": "editor.action.joinLines"}
 ]
