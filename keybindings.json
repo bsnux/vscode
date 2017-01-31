@@ -7,5 +7,6 @@
     { "key": "cmd+k+right",            "command": "workbench.action.splitEditor"},
     { "key": "alt+b",                  "command": "cursorWordLeft"},
     { "key": "alt+f",                  "command": "cursorWordRight"},
+    { "key": "ctr+k",                  "command": "editor.action.deleteLines"},
     { "key": "cmd+j",                  "command": "editor.action.joinLines"}
 ]
