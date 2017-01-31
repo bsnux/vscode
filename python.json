@@ -1,16 +1,16 @@
 {
-	"ipdb": {
-		"prefix": "ipdb",
-		"body": [
-			"import ipdb; ipdb.set_trace()"
-		],
-		"description": "ipdb"
-	},
-	"itr": {
-		"prefix": "itr",
-		"body": [
-			"import ipdb; ipdb.set_trace()"
-		],
-		"description": "ipdb"
-	}
+    "ipdb": {
+        "prefix": "ipdb",
+        "body": [
+            "import ipdb; ipdb.set_trace()"
+        ],
+        "description": "ipdb"
+    },
+    "itr": {
+        "prefix": "itr",
+        "body": [
+            "import ipdb; ipdb.set_trace()"
+        ],
+        "description": "ipdb"
+    }
 }
