@@ -1,0 +1,5 @@
+PeterJausovec.vscode-docker@0.0.13
+donjayamanne.githistory@0.2.0
+donjayamanne.python@0.6.0
+ms-mssql.mssql@0.3.0
+smlombardi.darcula-extended@3.3.2
