@@ -34,7 +34,10 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "/usr/local/bin/yapf",
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
-    "workbench.editor.showTabs": false
+    "workbench.editor.showTabs": false,
+    "workbench.colorTheme": "Darcula Extended",
+    "workbench.iconTheme": "vs-seti"
 }
