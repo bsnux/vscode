@@ -1,11 +1,13 @@
-// Place your settings in this file to overwrite the default settings
 {
-    //"editor.fontFamily": "'Inconsolata-dz for Powerline', 'Inconsolata-g for Powerline', DroidSansMonoForPowerline",
-    //"editor.fontFamily": "Consolas",
     "editor.fontFamily": "Menlo",
-    "editor.fontSize": 11.5,
+    "editor.fontSize": 12,
+    // "editor.fontFamily": "Operator Mono",
+    // "editor.fontSize": 12.5,
+    "editor.lineHeight": 14,
     "editor.tabCompletion": true,
-    "editor.rulers": [80],
+    "editor.rulers": [
+        80
+    ],
     "python.linting.lintOnTextChange": true,
     "files.watcherExclude": {
         "**/.git/objects/**": true,
@@ -13,14 +15,19 @@
         "**/*.build/**": true,
         "**/env/**": true,
         "**/*.pyc": true,
+        "**/collected-static/**": true
     },
     "search.exclude": {
         "**/node_modules": true,
+        "**/node_modules_docker": true,
+        "**/node_modules_local": true,
         "**/bower_components": true,
         "**/.build/**": true,
         "**/env/**": true,
         "**/project/source/**": true,
         "**/*.pyc": true,
+        "**/tags": true,
+        "**/collected-static/**": true
     },
     "files.exclude": {
         "**/.git": true,
@@ -29,15 +36,53 @@
         "**/*.pyc": true,
         "**/*.build": true,
         "**/node_modules": true,
-        "**/node_modules_docker": true
+        "**/node_modules_docker": true,
+        "**/node_modules_local": true,
+        "**/collected-static/**": true
     },
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
     "python.formatting.provider": "yapf",
     "python.formatting.yapfPath": "/usr/local/bin/yapf",
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
-    "workbench.editor.showTabs": false,
-    "workbench.colorTheme": "Darcula Extended",
-    "workbench.iconTheme": "vs-seti"
+    "workbench.editor.showTabs": true,
+    "workbench.iconTheme": "vs-seti",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    // "vim.leader": ",",
+    // "vim.useSystemClipboard": true,
+    // "vim.easymotion": true,
+    // "vim.useCtrlKeys": true,
+    "git.confirmSync": false,
+    // "vim.disableAnnoyingNeovimMessage": true,
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "[json]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+    },
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "workbench.colorCustomizations": {
+        // "editor.selectionHighlightBackground": "#D3D3D3",
+        //"editor.selectionBackground": "#327580",
+    },
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.fontFamily": "Menlo",
+    "terminal.integrated.fontSize": 12.5,
+    "workbench.colorTheme": "Atom One Dark",
+    "[python]": {},
+    "workbench.panel.location": "right",
+    "python.workspaceSymbols.exclusionPatterns": [
+        "**/site-packages/**",
+        ".build/**/"
+    ]
 }

@@ -1,12 +1,46 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+c",                 "command": "editor.action.clipboardCopyAction" },
+    {
+        "key": "cmd+c",                 "command": "editor.action.clipboardCopyAction" },
     { "key": "ctrl+x",                 "command": "editor.action.clipboardCutAction" },
-    { "key": "ctrl+v",                 "command": "editor.action.clipboardPasteAction" },
     { "key": "ctrl+s",                 "command": "workbench.action.files.save" },
-    { "key": "cmd+k+right",            "command": "workbench.action.splitEditor"},
     { "key": "alt+b",                  "command": "cursorWordLeft"},
     { "key": "alt+f",                  "command": "cursorWordRight"},
-    { "key": "ctr+k",                  "command": "editor.action.deleteLines"},
-    { "key": "cmd+j",                  "command": "editor.action.joinLines"}
+    { "key": "cmd+j",                  "command": "editor.action.joinLines"},
+    {
+        "key": "ctrl+b",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+f",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+d",
+        "command": "deleteRight",
+        "when": "editorTextFocus"
+    },{
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {"key": "cmd+left", "command": "workbench.action.previousEditor"},
+    {"key": "cmd+right", "command": "workbench.action.nextEditor"},
+    {
+        "key": "ctrl+u", "command": "editor.action.deleteLines"
+    },
+    {
+        "key": "cmd+l",
+        "command": "expandLineSelection",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+i",
+        "command": "-expandLineSelection",
+        "when": "editorTextFocus"
+    }
 ]
