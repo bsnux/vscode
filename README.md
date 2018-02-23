@@ -5,6 +5,7 @@ Personal configuration for [MS Visual Studio Code](https://code.visualstudio.com
 ## Versions
 
 * 1.19.1
+* 1.20.1
 
 ## OS X installation
 
