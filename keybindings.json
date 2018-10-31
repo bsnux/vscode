@@ -1,46 +1,15 @@
-// Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "cmd+c",                 "command": "editor.action.clipboardCopyAction" },
-    { "key": "ctrl+x",                 "command": "editor.action.clipboardCutAction" },
-    { "key": "ctrl+s",                 "command": "workbench.action.files.save" },
-    { "key": "alt+b",                  "command": "cursorWordLeft"},
-    { "key": "alt+f",                  "command": "cursorWordRight"},
-    { "key": "cmd+j",                  "command": "editor.action.joinLines"},
-    {
-        "key": "ctrl+b",
-        "command": "cursorLeft",
-        "when": "editorTextFocus"
-    },{
-        "key": "ctrl+f",
-        "command": "cursorRight",
-        "when": "editorTextFocus"
-    },{
-        "key": "ctrl+e",
-        "command": "cursorEnd",
-        "when": "editorTextFocus"
-    },{
-        "key": "ctrl+d",
-        "command": "deleteRight",
-        "when": "editorTextFocus"
-    },{
-        "key": "ctrl+a",
-        "command": "cursorHome",
-        "when": "editorTextFocus"
-    },
-    {"key": "cmd+left", "command": "workbench.action.previousEditor"},
-    {"key": "cmd+right", "command": "workbench.action.nextEditor"},
-    {
-        "key": "ctrl+u", "command": "editor.action.deleteLines"
-    },
-    {
-        "key": "cmd+l",
-        "command": "expandLineSelection",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+i",
-        "command": "-expandLineSelection",
-        "when": "editorTextFocus"
-    }
+  { "key": "alt+b", "command": "cursorWordLeft"},
+  { "key": "alt+f", "command": "cursorWordRight"},
+  {
+  "key": "cmd+l",
+    "command": "expandLineSelection",
+    "when": "editorTextFocus"
+  },
+  {"key": "cmd+left", "command": "workbench.action.previousEditor"},
+  {"key": "cmd+right", "command": "workbench.action.nextEditor"},
+  { "key": "ctrl+s",                 "command": "workbench.action.files.save" },
+  // Toggle between terminal and editor focus
+  { "key": "ctrl+,", "command": "workbench.action.terminal.focus"},
+  { "key": "ctrl+,", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"}
 ]
