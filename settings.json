@@ -1,81 +1,32 @@
 {
-    "editor.fontSize": 12,
-    "editor.lineHeight": 14,
-    "editor.tabCompletion": true,
-    "editor.rulers": [
-        80
-    ],
-    "editor.wordWrap": "on",
-    "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/node_modules/**": true,
-        "**/*.build/**": true,
-        "**/env/**": true,
-        "**/*.pyc": true,
-        "**/collected-static/**": true
+    "window.zoomLevel": 0.5,
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.background": "#343434"
+        }
     },
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/node_modules_docker": true,
-        "**/node_modules_local": true,
-        "**/bower_components": true,
-        "**/.build/**": true,
-        "**/env/**": true,
-        "**/project/source/**": true,
-        "**/*.pyc": true,
-        "**/tags": true,
-        "**/collected-static/**": true
-    },
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/*.DS_Store": true,
-        "**/*.pyc": true,
-        "**/*.build": true,
-        "**/node_modules": true,
-        "**/node_modules_docker": true,
-        "**/node_modules_local": true,
-        "**/collected-static/**": true
-    },
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.flake8Path": "/usr/local/bin/flake8",
-    "python.formatting.provider": "yapf",
-    "python.formatting.yapfPath": "/usr/local/bin/yapf",
-    "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 1,
-    "workbench.editor.showTabs": true,
-    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 14,
+    "explorer.openEditors.visible": 0,
+    "editor.rulers": [80],
+    "editor.minimap.enabled": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
         "strings": true
     },
-    "git.confirmSync": false,
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
+    "files.associations": {
+        "Dockerfile*": "dockerfile",
+        "Jenkinsfile*": "groovy"
     },
-    "[json]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
+    "vs-kubernetes": {
+        "vs-kubernetes.helm-path": "/Users/afernandez/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vs-kubernetes.draft-path": "/Users/afernandez/.vs-kubernetes/tools/draft/darwin-amd64/draft"
     },
-    "workbench.editor.enablePreview": false,
-    "editor.minimap.enabled": false,
-    "git.enableSmartCommit": true,
-    "workbench.sideBar.location": "left",
-    "[python]": {},
-    "python.workspaceSymbols.exclusionPatterns": [
-        "**/site-packages/**",
-        ".build/**/"
-    ],
-    "window.menuBarVisibility": "toggle",
-    "editor.renderWhitespace": "boundary",
-    "terminal.integrated.fontFamily": "Hack",
-    "terminal.integrated.fontSize": 12,
-    "window.restoreWindows": "none",
-    "workbench.colorTheme": "Twilight",
-    "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.rendererType": "dom",
-    "python.pythonPath": "/usr/local/bin/python"
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "/Users/afernandez/Library/Python/3.7/bin/yapf",
+    "python.linting.flake8Enabled": true,
+    "files.trimTrailingWhitespace": true,
+    "search.location": "panel"
 }

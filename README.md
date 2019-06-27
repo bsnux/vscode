@@ -2,9 +2,9 @@
 
 Personal configuration for [MS Visual Studio Code](https://code.visualstudio.com)
 
-## Versions
+## Latest version tested
 
-* 1.28.2
+* 1.35.1
 
 ## macOS installation
 
