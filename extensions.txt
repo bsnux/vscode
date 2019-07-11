@@ -1,6 +1,12 @@
+bitzl.vscode-puppet@0.4.5
+bmarkovic.haproxy@0.1.2
+dbankier.vscode-quick-select@0.2.8
 dracula-theme.theme-dracula@2.18.0
-ms-azuretools.vscode-docker@0.6.4
+hangxingliu.vscode-awk-hint@0.0.2
+luggage66.AWK@0.0.2
+ms-azuretools.vscode-docker@0.7.0
 ms-kubernetes-tools.vscode-kubernetes-tools@1.0.1
-ms-python.python@2019.6.22090
-ms-vscode.Go@0.11.0
+ms-python.python@2019.6.24221
+ms-vscode.Go@0.11.4
 redhat.vscode-yaml@0.4.1
+vscode-icons-team.vscode-icons@8.8.0

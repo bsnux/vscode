@@ -1,7 +1,7 @@
 {
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0,
     "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
             "editor.background": "#343434"
@@ -22,11 +22,13 @@
     },
     "vs-kubernetes": {
         "vs-kubernetes.helm-path": "/Users/afernandez/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-        "vs-kubernetes.draft-path": "/Users/afernandez/.vs-kubernetes/tools/draft/darwin-amd64/draft"
+        "vs-kubernetes.draft-path": "/Users/afernandez/.vs-kubernetes/tools/draft/darwin-amd64/draft",
+        "vs-kubernetes.minikube-path": "/Users/afernandez/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
     "python.formatting.provider": "yapf",
     "python.formatting.yapfPath": "/Users/afernandez/Library/Python/3.7/bin/yapf",
     "python.linting.flake8Enabled": true,
     "files.trimTrailingWhitespace": true,
-    "search.location": "panel"
+    "search.location": "panel",
+    "workbench.iconTheme": "vscode-icons"
 }
