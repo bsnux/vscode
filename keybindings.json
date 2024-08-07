@@ -1,49 +1,93 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "ctrl+backspace",
-        "command": "deleteWordLeft",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+,",
-        "command": "workbench.action.terminal.focus"
-    },
-    {
-        "key": "ctrl+,",
-        "command": "workbench.action.focusActiveEditorGroup",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "cmd+j",
-        "command": "editor.action.joinLines",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "workbench.action.openRecent"
-    },
-    {
-        "key": "cmd+shift+-",
-        "command": "workbench.action.splitEditorUp"
-    },
-    {
-        "key": "ctrl+=",
-        "command": "editor.action.smartSelect.grow",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+cmd+left",
-        "command": "workbench.action.terminal.focusPrevious",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+cmd+right",
-        "command": "workbench.action.terminal.focusNext",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+cmd+=",
-        "command": "workbench.action.toggleMaximizedPanel"
-    }
+  {
+    "key": "cmd+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
+    "key": "cmd+x",
+    "command": "editor.action.clipboardCutAction"
+  },
+  {
+    "key": "cmd+v",
+    "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "deleteWordLeft",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+,",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+cmd+=",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "cursorColumnSelectLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "cursorColumnSelectRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+'",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "workbench.action.debug.run",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "macros.cutToTheEnd"
+  },
+  {
+    "key": "f9",
+    "command": "search.action.openNewEditor"
+  },
+  {
+    "key": "f6",
+    "command": "copy-github-permalink.activate"
+  },
+  {
+    "key": "f2",
+    "command": "workbench.action.files.save"
+  }
 ]

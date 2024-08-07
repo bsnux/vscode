@@ -4,10 +4,10 @@ Personal configuration for [MS Visual Studio Code](https://code.visualstudio.com
 
 ## Latest version tested
 
-* 1.35.1
+* 1.92.0
 
-## macOS installation
+## How-to syncying local changes to local repo
 
-Place files in this folder `~/Library/Application Support/Code/User/`.
-
-You can also can create _symlinks_.
+```shell
+./sync.sh
+```
