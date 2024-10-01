@@ -1,3 +1,3 @@
 geddski.macros@1.2.1
 mightbesimon.mariana-sublime@1.2.0
-vscode-icons-team.vscode-icons@12.8.0
+vscode-icons-team.vscode-icons@12.9.0
